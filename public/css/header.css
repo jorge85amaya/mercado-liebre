@@ -1,0 +1,77 @@
+header {
+    width: 100vw;
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.container-logo-input {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+form.form-busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+}
+
+.busqueda {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border-right: none;
+}
+
+button {
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border-left: none;
+}
+
+.icono {
+    color: grey;
+}
+
+.logo {
+    margin: 10px 20px;
+    width: 45%;
+}
+
+nav {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+}
+.compra-en-cuotas {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.color-burger-menu {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+}

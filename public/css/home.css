@@ -1,0 +1,159 @@
+@import url(normalize.css);
+@import url(header.css);
+@import url(footer.css);
+/* comienzo del main */
+
+main {
+    margin: auto;
+    width: 90vw;
+}
+
+.imagenes {
+    width: 80%;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 15px;
+}
+
+.container-carta-producto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carta-pruducto {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.carta-pruducto:hover {
+    transition: all 0.5s;
+    box-shadow: 0px 0px 20px rgb(54, 54, 54);
+    .descripciones{
+        transition: all 0.5s;
+        color: black;
+        margin-top: 5px;
+    }
+    .camioncito{
+        transition: all 0.5s;
+        transform: rotateZ(-90deg);
+    }
+}
+
+.precio {
+    font-size: 24px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    margin: 0 15px;
+}
+
+.camioncito {
+    padding: 3px 13px 13px 3px;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+}
+
+.precio-descuento {
+    margin-top: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+.descripciones {
+    font-size: 16px;
+    color: #FFF;
+}
+
+section {
+    margin-top: 10px;
+}
+
+@media (min-width: 361px) {
+    .burger-menu{
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    ul {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .secciones , .links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .camioncito {
+        bottom: 90px;
+    }
+
+    .carta-pruducto {
+        width: 40%;
+    }
+
+    .logo-label-compra-cuotas {
+        display: flex;
+        align-items: center;
+    }
+
+    .top-seccion-footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .carta-pruducto {
+        width: 20%;
+    }
+
+    .camioncito {
+        bottom: 70px;
+    }
+
+    .precio {
+        font-size: 16px;
+    }
+    
+    .descuento {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+
+    li {
+        font-size: 21px;
+    }
+
+}
+
+
