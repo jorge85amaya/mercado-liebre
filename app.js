@@ -19,8 +19,10 @@ app.get('/register', (req, res) => {
     res.sendFile(__dirname + '/views/register.html')
 })
 
-app.listen(puerto, () => {
-    console.log('Aplicación esuchando en puerto 3002');
+const port = process.env.port || puerto;
+
+app.listen(port, () => {
+    console.log(`Servidor corriendo en el puerto ${port}`);
 });
 
 
